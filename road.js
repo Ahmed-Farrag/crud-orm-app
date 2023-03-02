@@ -17,27 +17,33 @@ import {DeleteResult} from 'typeorm'
 خصصت لليوزر
 * make file in base folder : user.ts  make extent from base.abstract.ts of type user in entity
 * and make constractor take repo of user and make injection
-* and install nestjs/typeorm  >npm i nestjs/typeorm
+* and install nestjs/typeorm  
+>npm i -save nestjs/typeorm
 
 
 
+*Make configration to ORM
+
+make config file للبيانات الخاصة بالداتا بيز
+
+>npm i --save dotenv
+>npm i @types/dotenv
+>npm i --save @nestjs/config
+
+and in app.module : 
+import { ConfigModule } from '@nestjs/config';
+ ConfigModule.forRoot({
+      isGlobal: true,
+    }),
 
 
+* work in mongodb database
+>npm i mongodb --save
 
+* make file : .env
+   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+create folder database/config/ormConfig.ts  to read from .env
 
 
 */
