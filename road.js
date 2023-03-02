@@ -45,5 +45,7 @@ import { ConfigModule } from '@nestjs/config';
 
 create folder database/config/ormConfig.ts  to read from .env
 
+in app.module : import to ormConfig and TypeOrmModule
 
+>npm i yarn
 */

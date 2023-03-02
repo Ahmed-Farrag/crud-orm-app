@@ -25,12 +25,13 @@
     "@nestjs/core": "^9.0.0",
     "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^9.0.0",
-    "@nestjs/typeorm": "github:nestjs/typeorm",
+    "@nestjs/typeorm": "^9.0.1",
     "@types/dotenv": "^8.2.0",
     "dotenv": "^16.0.3",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0",
-    "typeorm": "^0.3.12"
+    "typeorm": "^0.3.12",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",
